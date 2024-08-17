@@ -1,9 +1,9 @@
 let nomeHeroi = ("Derek");
-let xpHeroi = 6589;
+let xpHeroi = 1001;
 let nivel;
 
 switch (true) {
-  case xpHeroi < 1000:
+  case xpHeroi <= 1000:
     nivel = "Ferro";
     break;
   case xpHeroi <= 2000:
